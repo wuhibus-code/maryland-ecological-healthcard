@@ -2685,6 +2685,8 @@ def main():
     if not comp2.ok:
         print("NOTE: Region failed — open logs/region_stderr.txt.")
     print("======================================================\n")
+if __name__ == "__main__":
+    main()
 
 
 if __name__ == "__main__":
